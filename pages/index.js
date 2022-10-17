@@ -12,7 +12,12 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       </Head>
 
-      <h1>Sentite Panda</h1>
+      {/* <Hero /> */}
+      <Porque />
+      {/* <Como /> */}
+      {/* <Que /> */}
+      {/* <Equipo /> */}
+
     </div>
   )
 }
