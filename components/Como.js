@@ -3,6 +3,7 @@ import Section from "./Section";
 const queryComo = {
   title: './media/como.svg',
   source: '*Basados en métodos de la Terapia Cognitivo Conductual. La TCC busca entender cómo piensa uno acerca de sí mismo, de otras personas y del mundo que le rodea. Está basada en ciencia.',
+  id: 'how',
   listData: [
     {
       img: './media/loupe.svg',

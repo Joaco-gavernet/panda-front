@@ -1,7 +1,20 @@
+import Link from "next/link";
+
+
+const data = [
+  {
+    link: 'https://www.instagram.com/panda.labs/',
+    img: './media/instagram.svg'
+  },
+  {
+    link: 'https://www.linkedin.com/company/pandaapp/',
+    img: './media/linkedin.svg'
+  },
+]
 
 
 const Footer = () => {
-  return <footer className={`
+  return <footer id="footer" className={`
     h-[10rem]
     g-rid
     bg-white 
@@ -15,8 +28,14 @@ const Footer = () => {
         infopanda.io@gmail.com
       </h2>
       <div className="flex space-x-8">
-        <img src={"./media/instagram.svg"} alt="" className="w-[2rem]" />
-        <img src={"./media/linkedin.svg"} alt="" className="w-[2rem]" />
+        {
+          data.map(
+            item =>
+              <Link href={item.link}>
+                <img src={item.img} alt="" className="w-[2rem] hover:cursor-pointer" />
+              </Link>
+          )
+        }
       </div>
     </div>
   </footer>;

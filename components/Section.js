@@ -2,7 +2,7 @@ import { Title, List, Source } from "./";
 
 
 const Section = ({ dark, query }) => {
-  return <section className={`
+  return <section id={query.id} className={`
     h-screen
     g-rid
     ${dark ?

@@ -3,6 +3,7 @@ import Section from "./Section";
 const queryPorque = {
   title: './media/porque.svg',
   source: '* Datos ofrecidos por la Organización Mundial de la Salud',
+  id: 'why',
   listData: [
     {
       img: './media/brain.svg',

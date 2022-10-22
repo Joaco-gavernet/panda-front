@@ -11,7 +11,7 @@ const queryQue = {
 
 
 const Que = () => {
-  return <section className={`
+  return <section id="what" className={`
   h-screen
   g-rid
   bg-purple 
