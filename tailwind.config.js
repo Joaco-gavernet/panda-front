@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     colors: {
       purple: '#3E338B',
+      yellow: '#EDBF55',
       black: '#1E1E1E',
       white: '#F4F4F4',
     },
@@ -26,6 +27,9 @@ module.exports = {
         regular: '400',
         bold: '600',
         extrabold: '800'
+      },
+      dropShadow: {
+        '3xl': '0 35px 35px rgba(0, 0, 0, 0.5)'
       }
     },
   },

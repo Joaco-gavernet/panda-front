@@ -1,3 +1,6 @@
+export { default as Navbar } from "./Navbar"
+export { default as Mobile } from "./Mobile"
+export { default as Desktop } from "./Desktop"
 export { default as Hero } from "./Hero"
 export { default as Porque } from "./Porque"
 export { default as Section } from "./Section"

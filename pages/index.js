@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Hero, Porque, Como, Que, Footer } from '../components'
+import { Mobile, Desktop } from '../components'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,12 +13,8 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       </Head>
 
-      <Hero />
-      <Porque />
-      <Como />
-      <Que />
-      {/* <Equipo /> */}
-      <Footer />
+      <Mobile className="lg:hidden" />
+      <Desktop className="hidden lg:block relative" />
 
     </div>
   )
