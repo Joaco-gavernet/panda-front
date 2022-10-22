@@ -59,8 +59,29 @@ a {
   grid-row: 10;
 }
 
+.g-image {
+  grid-column: 2 / 6;
+  grid-row: 2 / 11;
+}
+
+.g-info {
+  grid-column: 6 / 10;
+  grid-row: 2 / 10;
+}
+
 .bg-custom {
   background-position-x: 16vw;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.g-rid-footer {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(6, minmax(0, 1fr));
+}
+
+.g-footer {
+  grid-column: 2 / 10;
+  grid-row: 2 / 10;
 }

@@ -1,0 +1,36 @@
+import Title from "./Title";
+
+const queryQue = {
+  title: './media/que.svg',
+  img: './media/iphone-panda.png',
+  h2: 'Panda',
+  p: 'Una app fundada en la terapia cognitivo conductual para lograr que puedas llevar una vida sana mediante la introspección.',
+  appStore: './media/appstore.png',
+  playStore: './media/playstore.png'
+}
+
+
+const Que = () => {
+  return <section className={`
+  h-screen
+  g-rid
+  bg-purple 
+  text-white 
+  fill-white 
+  bg-dark
+  bg-custom
+`}>
+    <Title img={queryQue.title} />
+    <img src={queryQue.img} alt="" className="g-image m-auto" />
+    <div className="g-info flex flex-col justify-center space-y-4">
+      <h2 className="text-xl font-extrabold">{queryQue.h2}</h2>
+      <p className="">{queryQue.p}</p>
+      <div className="flex mt-16">
+        <img src={queryQue.appStore} alt="" className="w-1/4" />
+        <img src={queryQue.playStore} alt="" className="w-1/4" />
+      </div>
+    </div>
+  </section>;
+}
+
+export default Que;

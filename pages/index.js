@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Hero, Porque, Como } from '../components'
+import { Hero, Porque, Como, Que, Footer } from '../components'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -16,8 +16,9 @@ export default function Home() {
       <Hero />
       <Porque />
       <Como />
-      {/* <Que /> */}
+      <Que />
       {/* <Equipo /> */}
+      <Footer />
 
     </div>
   )
