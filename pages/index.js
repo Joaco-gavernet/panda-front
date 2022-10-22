@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Porque, Como } from '../components'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
 
       {/* <Hero /> */}
       <Porque />
-      {/* <Como /> */}
+      <Como />
       {/* <Que /> */}
       {/* <Equipo /> */}
 

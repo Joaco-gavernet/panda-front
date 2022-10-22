@@ -5,7 +5,28 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      purple: '#3E338B',
+      black: '#1E1E1E',
+      white: '#F4F4F4',
+    },
+    extend: {
+      backgroundImage: {
+        light: "url('../public/media/background-light.svg')",
+        dark: "url('../public/media/background-dark.svg')"
+      },
+      fontSize: {
+        xl: '6rem',
+        l: '2rem',
+        m: '1rem',
+        s: '.5rem'
+      },
+      fontWeight: {
+        regular: '400',
+        bold: '600',
+        extrabold: '800'
+      }
+    },
   },
   plugins: [],
 }

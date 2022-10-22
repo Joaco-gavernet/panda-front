@@ -18,13 +18,34 @@ a {
   box-sizing: border-box;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.g-rid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(10, minmax(0, 1fr));
+}
 
-  body {
-    color: white;
-    background: black;
-  }
-} */
+.g-title {
+  grid-column: 1 / 3;
+  grid-row: 2 / 10;
+}
+
+.g-list {
+  grid-column: 3 / 8;
+  grid-row: 2 / 10;
+}
+
+.g-extra {
+  grid-column: 8 / 12;
+  grid-row: 2 / 10;
+}
+
+.g-source {
+  grid-column: 3 / 8;
+  grid-row: 10;
+}
+
+.bg-custom {
+  background-position-x: 16vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
