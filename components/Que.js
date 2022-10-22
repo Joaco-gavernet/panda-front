@@ -21,7 +21,9 @@ const Que = () => {
   bg-custom
 `}>
     <Title img={queryQue.title} />
-    <img src={queryQue.img} alt="" className="g-image m-auto" />
+    <a href="#" className="g-image m-auto hover:transform hover:scale-105 transition-all hover:cursor-pointer">
+      <img src={queryQue.img} alt="" />
+    </a>
     <div className="g-info flex flex-col justify-center space-y-4">
       <h2 className="text-xl font-extrabold">{queryQue.h2}</h2>
       <p className="">{queryQue.p}</p>

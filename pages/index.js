@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Panda</title>
         <meta name="description" content="Created by Panda Labs" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/panda.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       </Head>
