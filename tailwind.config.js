@@ -12,11 +12,12 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
+        hero: "url(../public/media/background-hero.svg)",
         light: "url('../public/media/background-light.svg')",
         dark: "url('../public/media/background-dark.svg')"
       },
       fontSize: {
-        xl: '6rem',
+        xl: '4rem',
         l: '2rem',
         m: '1rem',
         s: '.5rem'

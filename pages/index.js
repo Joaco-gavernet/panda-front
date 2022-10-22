@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Porque, Como } from '../components'
+import { Hero, Porque, Como } from '../components'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       </Head>
 
-      {/* <Hero /> */}
+      <Hero />
       <Porque />
       <Como />
       {/* <Que /> */}

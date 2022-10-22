@@ -1,3 +1,4 @@
+export { default as Hero } from "./Hero"
 export { default as Porque } from "./Porque"
 export { default as Section } from "./Section"
 export { default as Title } from "./Title"
