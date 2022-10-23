@@ -23,14 +23,14 @@ const Que = () => {
 `}>
     <Title img={queryQue.title} />
     <a href="#" className="g-image m-auto hover:transform hover:scale-105 transition-all hover:cursor-pointer">
-      <Image src={queryQue.img} alt="" />
+      <img src={queryQue.img} alt="" />
     </a>
     <div className="g-info flex flex-col justify-center space-y-4">
       <h2 className="text-xl font-extrabold">{queryQue.h2}</h2>
       <p className="">{queryQue.p}</p>
       <div className="flex mt-16">
-        <Image src={queryQue.appStore} alt="" className="w-1/4" />
-        <Image src={queryQue.playStore} alt="" className="w-1/4" />
+        <img src={queryQue.appStore} alt="" className="w-1/4" />
+        <img src={queryQue.playStore} alt="" className="w-1/4" />
       </div>
     </div>
   </section>;

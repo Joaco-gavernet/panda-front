@@ -30,13 +30,13 @@ const Mobile = ({ className }) => {
             data.map(
               (item, i) =>
                 <Link key={i} href={item.link}>
-                  <Image src={item.img} alt="" className="w-[2rem] hover:cursor-pointer" />
+                  <img src={item.img} alt="" className="w-[2rem] hover:cursor-pointer" />
                 </Link>
             )
           }
         </div>
       </div>
-      <Image
+      <img
         src="./media/panda-hello.png"
         alt=""
         className="
