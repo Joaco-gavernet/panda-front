@@ -1,6 +1,9 @@
+import Image from "next/image";
+
+
 const Title = ({ img }) => {
   return (
-    <img src={img} alt="" className="g-title ml-[10rem] my-auto w-4/12" />
+    <Image src={img} alt="" className="g-title ml-[10rem] my-auto w-4/12" />
   );
 }
 
