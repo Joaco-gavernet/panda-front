@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const data = [
   {
@@ -27,15 +28,15 @@ const Mobile = ({ className }) => {
         <div className="flex space-x-8">
           {
             data.map(
-              item =>
-                <Link href={item.link}>
-                  <img src={item.img} alt="" className="w-[2rem] hover:cursor-pointer" />
+              (item, i) =>
+                <Link key={i} href={item.link}>
+                  <Image src={item.img} alt="" className="w-[2rem] hover:cursor-pointer" />
                 </Link>
             )
           }
         </div>
       </div>
-      <img
+      <Image
         src="./media/panda-hello.png"
         alt=""
         className="

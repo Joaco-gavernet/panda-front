@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 
 const data = [
@@ -30,9 +31,9 @@ const Footer = () => {
       <div className="flex space-x-8">
         {
           data.map(
-            item =>
-              <Link href={item.link}>
-                <img src={item.img} alt="" className="w-[2rem] hover:cursor-pointer" />
+            (item, i) =>
+              <Link href={item.link} key={i}>
+                <Image src={item.img} alt="" className="w-[2rem] hover:cursor-pointer" />
               </Link>
           )
         }
