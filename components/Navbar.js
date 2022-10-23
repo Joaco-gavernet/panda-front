@@ -46,7 +46,7 @@ const Navbar = () => {
           items.map(
             (item, i) => <a key={i} href={item.link}>
               <li>
-                <Image
+                <img
                   src={item.img}
                   alt=""
                   className="w-[2rem] opacity-50 hover:opacity-100 hover:fill-yellow transition-all hover:cursor-pointer" />

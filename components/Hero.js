@@ -10,10 +10,10 @@ const Hero = () => {
     bg-hero
   `}>
     <Link href="#">
-      <Image src={"./media/panda.svg"} alt="" className="g-hero-logo w-[10rem] hover:cursor-pointer" />
+      <img src={"./media/panda.svg"} alt="" className="g-hero-logo w-[10rem] hover:cursor-pointer" />
     </Link>
     <h1 className="g-hero-title my-auto text-xl font-extrabold">Para mantener <br />tu equilibrio <br />mental</h1>
-    <Image src={"./media/hero-image.png"} alt="" className="g-hero-image" />
+    <img src={"./media/hero-image.png"} alt="" className="g-hero-image" />
   </section>;
 }
 

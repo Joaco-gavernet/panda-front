@@ -33,7 +33,7 @@ const Footer = () => {
           data.map(
             (item, i) =>
               <Link href={item.link} key={i}>
-                <Image src={item.img} alt="" className="w-[2rem] hover:cursor-pointer" />
+                <img src={item.img} alt="" className="w-[2rem] hover:cursor-pointer" />
               </Link>
           )
         }
